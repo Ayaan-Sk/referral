@@ -5,13 +5,13 @@ const PurposeSection = () => {
   const features = [
     {
       icon: "🟣", // Replace with your actual icon component or image
-      title: "Built for impact",
-      description: "We identify and nurture a truly diverse team of designers, developers and marketers"
+      title: "Stronger Together",
+      description: "Just like a convoy protects and moves as one, our platform ensures no junior is left behind Alumni and students move forward—side by side."
     },
     {
       icon: "🔴", // Replace with your actual icon component or image
-      title: "In sync with you",
-      description: "We work the way you do by adapting to your workflows and rhythm we aim to blend in for a seamless."
+      title: "Guided by Experience",
+      description: "Alumni who've been through it all help juniors avoid the same roadblocks Stay connected. Stay protected. Grow faster."
     }
   ];
 
@@ -29,13 +29,13 @@ const PurposeSection = () => {
               variants={fadeIn('up', 0.4)}
               className="text-sm text-purple-600 font-medium mb-2"
             >
-              ACHIEVE MORE
+              Why Us?
             </motion.div>
             <motion.h2 
               variants={textVariant(0.5)}
               className="text-3xl md:w-4/5 md:text-4xl font-bold text-gray-900"
             >
-              Purpose of a convoy is to keep your team
+              Purpose of AlumNet is
             </motion.h2>
           </motion.div>
 

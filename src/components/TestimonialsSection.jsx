@@ -57,13 +57,13 @@ const TestimonialsSection = () => {
           variants={textVariant(0.2)}
           className="text-3xl md:text-4xl font-bold mb-4"
         >
-          What our happy client say
+          What our happy User say
         </motion.h2>
         <motion.p 
           variants={fadeIn('up', 0.4)}
           className="text-gray-600"
         >
-          Things that make it the best place to start trading
+          Things that make it the best place to start helping Others
         </motion.p>
       </motion.div>
 

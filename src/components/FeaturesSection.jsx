@@ -5,19 +5,19 @@ import { fadeIn, textVariant } from "../utils/motion";
 const FeaturesSection = () => {
   const features = [
     {
-      icon: "🔍", 
-      title: "Find out what you need",
-      description: "We present you a proposal and discuss nitty-gritty like"
+      icon: "🎓", 
+      title: " For Students",
+      description: "Get real career guidance, job referrals, and mentorship from your own alumni network Start your journey with support that actually understands you."
     },
     {
-      icon: "⚙️",
-      title: "Work out the details", 
-      description: "Communication protocols apart from engagement models"
+      icon: "🏫",
+      title: "For Colleges", 
+      description: "Strengthen your alumni relationships and boost student placement Showcase a thriving ecosystem of support and success."
     },
     {
-      icon: "🚀",
-      title: "We get to work fast",
-      description: "Protocols apart from engage models, pricing billing"
+      icon: "👨‍💼",
+      title: " For Alumni",
+      description: "Give back with purpose by guiding the next generation Build your legacy while expanding your own professional network."
     }
   ]
 
@@ -36,13 +36,13 @@ const FeaturesSection = () => {
           variants={textVariant(0.2)}
           className="text-3xl font-bold mb-4"
         >
-          How can we help your business?
+          How can we help your Student, College, Alumni?
         </motion.h2>
         <motion.p 
           variants={fadeIn('up', 0.4)}
           className="text-gray-600"
         >
-          When you resell besnik, you build trust and increase
+         
         </motion.p>
       </motion.div>
       
@@ -98,7 +98,7 @@ const FeaturesSection = () => {
           whileTap={{ scale: 0.95 }}
           className="bg-blue-600 text-white cursor-pointer px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors relative"
         >
-          Become a Partner
+          Join Now
           <div className="absolute -z-10 w-full h-full rounded-full bg-blue-600/30 blur-xl top-0 left-0"></div>
         </motion.button>
       </motion.div>

@@ -9,9 +9,9 @@ const Navbar = () => {
 
   const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "#about", label: "About Us" },
-    { href: "#services", label: "Our Service" },
-    { href: "#testimonials", label: "Testimonials" },
+    { href: "#about", label: "Student" },
+    { href: "#services", label: "Alumni" },
+    { href: "#testimonials", label: "Colleges" },
   ]
 
   return (
@@ -76,7 +76,7 @@ const Navbar = () => {
           whileTap={{ scale: 0.95 }}
           className="hidden md:block bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 text-sm font-medium transition-all hover:shadow-lg hover:shadow-blue-100"
         >
-          <a href="#newsletter">Get in touch</a>
+          <a href="#newsletter">Sign In</a>
         </motion.button>
       </div>
 

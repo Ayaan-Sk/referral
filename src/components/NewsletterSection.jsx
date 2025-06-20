@@ -35,7 +35,7 @@ const NewsletterSection = () => {
                 variants={fadeIn('up', 0.6)}
                 className="text-blue-100 text-sm sm:text-base"
               >
-                Best cooks and best delivery guys all at your service. Hot tasty food
+               Don’t miss career tips, referrals, and exclusive updates from your alumni network. Subscribe now
               </motion.p>
             </motion.div>
 
